@@ -2,38 +2,7 @@
 
 This repository contains a comprehensive framework for generating, curating, and evaluating synthetic data using various machine learning techniques, including generative models and LLM-based approaches.
 
-## 🏗️ Project Structure
 
-```
-├── data/                           # Dataset storage and information
-│   ├── train/                     # Training datasets
-│   ├── test/                      # Test datasets
-│   └── data_info.csv             # Metadata about available datasets
-├── scripts/                       # Core implementation scripts
-│   ├── curation.py               # Multi-objective subset optimization for data curation
-│   ├── train_on_real_syn.py     # Training and evaluation on real vs synthetic data
-│   ├── proportions.py            # Proportion analysis and evaluation
-│   ├── generate_syn/             # Synthetic data generation methods
-│   │   ├── fit_and_generate.py   # Main generation pipeline
-│   │   ├── generator_syn.py      # Generator implementations
-│   │   ├── synthcity_metrics.py  # Evaluation metrics
-│   │   ├── vectgan.py           # VectGAN implementation
-│   │   └── LLAMA/               # LLAMA-based generation
-│   └── generate_syn_cur/         # Curated synthetic data generation
-│       ├── llama_fine_tuning.py  # LLAMA model fine-tuning
-│       ├── llama_inference_iterative.py # Iterative inference
-│       └── prepare_data_prompts.ipynb # Prompt preparation
-├── results/                       # Generated results and outputs
-│   ├── requirements.txt           # Python dependencies
-│   ├── generated_data_curated/   # Curated synthetic datasets
-│   ├── generated_data_not_curated/ # Non-curated synthetic datasets
-│   ├── proportions_results_curated/ # Curated proportion results
-│   ├── proportions_results_not_curated/ # Non-curated proportion results
-│   └── real_syn_tested_on_real/  # Real vs synthetic comparison results
-└── visuals/                       # Visualization outputs
-    ├── regression.png             # Regression task visualizations
-    └── classification.png         # Classification task visualizations
-```
 
 ## 🎯 Project Overview
 
