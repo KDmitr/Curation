@@ -1,0 +1,31 @@
+df_name,target_name,task_type,numeric_cols_indxs,row_number,df_test_len,col_number
+iris,target,classification,"[0, 1, 2, 3]",120,30,5
+wine,target,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",142,36,14
+560_bodyfat,target,regression,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",201,51,15
+diabetes,target,regression,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",353,89,11
+breast_cancer,target,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]",455,114,31
+travel,Target,classification,"[0, 3]",763,191,7
+credit_g,target,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",800,200,21
+seattle_housing,price,regression,"[0, 1, 2, 4, 6]",1613,403,8
+dataset_38_sick,Class,classification,"[0, 1, 2, 3, 4, 5, 6]",3017,755,-1
+phoneme,target,classification,"[0, 1, 2, 3, 4]",4323,1081,6
+page_blocks,target,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",4378,1095,11
+562_cpu_small,target,regression,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",6553,1639,13
+heloc_dataset_v1,RiskPerformance,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",8367,2092,24
+pendigits,target,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",8793,2199,17
+online_shoppers_intention,Revenue,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14]",9864,2466,18
+nursery,target,classification,"[0, 1, 2, 3, 4, 5, 6, 7]",10366,2592,9
+magic04,class,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",15216,3804,11
+us_location,bird,classification,"[1, 2]",16320,4080,5
+california_housing,median_house_value,regression,"[0, 1, 2, 3, 4, 5, 6, 7]",16512,4128,10
+default_of_credit_card_clients,default payment next month,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]",24000,6000,25
+adult,income,classification,"[0, 2, 4, 10, 11, 12]",26049,6512,15
+OnlineNewsPopularity,shares,regression,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]",31715,7929,59
+beijing,pm2.5,regression,"[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11]",35059,8765,13
+creditcard,Class,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",227845,56962,-1
+covtype,Cover_Type,classification,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]",464809,116203,-1
+vk_data_class,top1_interes,classification,,24000,6000,14
+vk_data_reg,age,regression,,24000,6000,14
+hack_processed_with_rf_class,Lithology,classification,,411,103,24
+hack_processed_with_rf_reg,Netpay,regression,,411,103,24
+sea_level,L,regression,,25800,6451,5
