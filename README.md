@@ -47,7 +47,6 @@ This framework focuses on synthetic data generation and evaluation across multip
 
 ### 1. Multi-Objective Data Curation (`curation.py`)
 - **Multi-criteria optimization** for optimal training data subsets
-- **Leave-One-Out (LOO) selection** strategies
 - **Pareto front optimization** for ML performance vs privacy trade-offs
 - Support for both classification and regression tasks
 
@@ -173,5 +172,6 @@ This framework is particularly useful for:
 - SynthCity team for synthetic data generation tools
 - TabPFN for few-shot learning capabilities
 - The open-source ML community for various dependencies
+
 
 
