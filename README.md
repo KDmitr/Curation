@@ -167,11 +167,5 @@ This framework is particularly useful for:
 
 
 
-## 🙏 Acknowledgments
-
-- SynthCity team for synthetic data generation tools
-- TabPFN for few-shot learning capabilities
-- The open-source ML community for various dependencies
-
 
 
